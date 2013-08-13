@@ -13,11 +13,11 @@ Some extract from the code is:
 
     
     for j in range(1,1000001):
-        edge = testlib.PersistentList([j,random.randint(1,100000),random.randint(1,100000),{}])
+        edge = [[j,random.randint(1,100000),random.randint(1,100000),{}]
         g.edges[j]=edge
 
 
-
+The differences between the files
 
 
     Test            edge              node refs      data
