@@ -20,7 +20,7 @@ Some extract from the code is:
     # loading
     x = list(g.edges.values())
 
-    #extracting
+    # extracting
     y = [str(e[3]) for e in x] 
 
 
