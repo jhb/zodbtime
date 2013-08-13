@@ -1,4 +1,4 @@
 zodbtime
 ========
 
-measurments on zodb and persistent objects
+Measurements on zodb and persistent objects
