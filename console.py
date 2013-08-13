@@ -1,5 +1,5 @@
 import cPickle, time, uuid, sys
-import pygraph,transaction
+import transaction
 from ZODB.FileStorage import FileStorage
 from ZODB.DB import DB
 import testlib
