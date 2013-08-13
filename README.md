@@ -17,7 +17,7 @@ Some extract from the code is:
         g.edges[j]=edge
 
 
-The differences between the files
+The differences between the tests:
 
 
     Test            edge              node refs      data
@@ -35,6 +35,7 @@ The differences between the files
     testdatapclass: list              int            Persistence inheriting class instance
 
 
+The results:
 
 
     Test           Data.fs (MB)  Init RAM (MB)   load time(s)    loaded RAM(MB)    extract time(s)    extracted RAM (MB)    
