@@ -5,6 +5,21 @@ Measurements on zodb and persistent objects
 
 All the code creates 100k nodes and 1m edge objects. Whats differing is the format of the edges, or their content.
 
+Some extract from the code is:
+
+    g=root['graphdb']
+    g.nodes=IOBTree()
+    g.edges=IOBTree()
+
+    
+    for j in range(1,1000001):
+        edge = testlib.PersistentList([j,random.randint(1,100000),random.randint(1,100000),{}])
+        g.edges[j]=edge
+
+
+
+
+
     Test            edge              node refs      data
     ====            ====              =========      ====
 
