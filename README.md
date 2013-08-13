@@ -11,10 +11,17 @@ Some extract from the code is:
     g.nodes=IOBTree()
     g.edges=IOBTree()
 
-    
+    #... 
     for j in range(1,1000001):
         edge = [[j,random.randint(1,100000),random.randint(1,100000),{}]
         g.edges[j]=edge
+
+    #...
+    # loading
+    x = list(g.edges.values())
+
+    #extracting
+    y = [str(e[3]) for e in x] 
 
 
 The differences between the tests:
